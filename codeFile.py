@@ -13,6 +13,7 @@ movie_soup = BeautifulSoup(page_html.content, 'html.parser')
 #Collect all the div tags classified as "lister-item mode-advanced"
 filter_name = movie_soup.find_all('div', {"class": "lister-item mode-advanced"})
 
+count = 1
 #Run through the retrived data to find contents in h3 tag
 for every in filter_name:
 
@@ -23,4 +24,5 @@ for every in filter_name:
     rating_data = every.find('div', {"class": "ratings-bar"})
     rating = rating_data.find('strong').text
 
-    print("%-70s Rating: %s" %(name, rating))
+    print("%i) %-70s Rating: %s" %(count,name, rating))
+    count += 1
