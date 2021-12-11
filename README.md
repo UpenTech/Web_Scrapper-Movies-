@@ -11,16 +11,16 @@ higher expectations.
 # Requirements
 
 For those with python interpreter installed in their devices you basically
-only need to install **beautifulsoup4** and **requests** library and just run the python file (codeFile.py).
+only need to install **beautifulsoup4** and **requests** module and just run the python file (codeFile.py).
 While the others first have to install the python interpreter and proceed with the above mentioned steps.
 
 It's a bit tedious work for non-technical people, isn't it? Fear not, taking these things into consideration
 I've added the entire python virtual environment here with everything already setup. 
 Just clone this repository or get the things in this repositoory and run the python file.
 
-For those who only want to copy the code file and run themself, just run these commands if you don't have the required libraries installed and run the python code.
+For those who only want to copy the code file and run themself, just run these commands if you don't have the required modules installed and run the python code.
 
-## Installing the Libraries
+## Installing the Modules
 
 Go to your terminal emulator and run the following commands. (I'm presuming you have pip installed on your device.)
 1. `pip install beautifulsoup4`
