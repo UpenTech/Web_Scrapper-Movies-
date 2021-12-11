@@ -18,7 +18,9 @@ It's a bit tedious work for non-technical people, isn't it? Fear not, taking the
 I've added the entire python virtual environment here with everything already setup. 
 Just clone this repository or get the things in this repositoory and run the python file.
 
-For those who only want to copy the code file and run themself, just run these commands if you don't have the required modules installed and run the python code.
+For those who only want to copy the code file and run themself, just run these commands.If you don't have the required modules installed then you'll to install them. (Follow the installation process below)
+
+After everything is done, run the python code.
 
 ## Installing the Modules
 
