@@ -28,8 +28,9 @@ Go to your terminal emulator and run the following commands. (I'm presuming you 
 
 ## Running Code
 
-Use the command;
-`python codeFile.py`
+Use the command
+
+1. `python codeFile.py`
 (You need to be in the same directory containing the file for this command to work)
 ---
 Enjoy! Fellas
